@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Auglearn2026/Auglearn2026.vcxproj" />
+  <Project Path="Auglearn2026/Auglearn2026.vcxproj" Id="896da599-8c89-4726-93e0-037860609241" />
 </Solution>
