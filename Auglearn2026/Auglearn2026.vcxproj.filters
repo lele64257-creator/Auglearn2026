@@ -15,6 +15,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="stringf.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
     <ClCompile Include="flags.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
