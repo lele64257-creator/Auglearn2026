@@ -24,5 +24,8 @@
     <ClCompile Include="floats.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="intcov.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

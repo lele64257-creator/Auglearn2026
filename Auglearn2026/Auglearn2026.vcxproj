@@ -22,6 +22,7 @@
     <ClCompile Include="flags.c" />
     <ClCompile Include="floats.c" />
     <ClCompile Include="stringf.c" />
+    <ClCompile Include="intcov.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
