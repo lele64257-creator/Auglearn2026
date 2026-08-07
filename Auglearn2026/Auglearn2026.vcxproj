@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="operator1.c" />
     <ClCompile Include="flags.c" />
     <ClCompile Include="floats.c" />
     <ClCompile Include="stringf.c" />
