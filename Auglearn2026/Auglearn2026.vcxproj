@@ -23,6 +23,7 @@
     <ClCompile Include="flags.c" />
     <ClCompile Include="floats.c" />
     <ClCompile Include="operator2.c" />
+    <ClCompile Include="operator3.c" />
     <ClCompile Include="stringf.c" />
     <ClCompile Include="intcov.c" />
   </ItemGroup>
