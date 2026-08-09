@@ -39,5 +39,8 @@
     <ClCompile Include="operator4.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="operator5.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
