@@ -27,6 +27,7 @@
     <ClCompile Include="operator4.c" />
     <ClCompile Include="operator5.c" />
     <ClCompile Include="operator6.c" />
+    <ClCompile Include="operator7.c" />
     <ClCompile Include="stringf.c" />
     <ClCompile Include="intcov.c" />
   </ItemGroup>
