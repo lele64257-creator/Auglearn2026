@@ -51,5 +51,8 @@
     <ClCompile Include="operator8.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="practise1.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
