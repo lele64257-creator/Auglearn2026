@@ -3,25 +3,42 @@
 
 int main(void)
 {
-	int num;
-	printf("输入一个两位数:");
-	if (scanf_s("%d", &num) != 1) 
-	{
-		return 0;
-	}
+	//int num;
+	//printf("输入一个两位数:");
+	//if (scanf_s("%d", &num) != 1) 
+	//{
+	//	return 0;
+	//}
 
-	int n = num < 0 ? -num : num; /* handle negative input */
-	int tens = n / 10;
-	int units = n % 10;
+	//int n = num < 0 ? -num : num; /* handle negative input */
+	//int tens = n / 10;
+	//int units = n % 10;
 
-	if (n >= 10 && n <= 99 && tens != 7 && units != 7)
-	{
-		printf("1\n");
-	} 
-	else 
-	{
-		printf("0\n");
-	}
+	//if (n >= 10 && n <= 99 && tens != 7 && units != 7)
+	//{
+	//	printf("1\n");
+	//} 
+	//else 
+	//{
+	//	printf("0\n");
+	//}
+
+
+
+
+
+
+
+
+	int number;
+
+	printf("请输入一个两位数:");
+	scanf_s("%d", &number);
+
+	int ge = number % 10;//个位
+	int shi = number / 10 % 10;//十位
+
+	printf("%d\n", ge != 7 && shi != 7);
 
 	return 0;
 }
