@@ -9,16 +9,19 @@ int main(void)
 
 	if (score >= 90 && score <= 100)
 	{
-		printf("perfect");
+		printf("Perfect");
 	}
 	else if (score >= 60 && score < 90)
 	{
-		printf("pass");
+		printf("Pass");
+	}
+	else if (score >= 0 && score < 60)
+	{
+		printf("Fail");
 	}
 	else
 	{
-		printf("fail");
+		printf("Invalid score");
 	}
-
 	return 0;
 }
