@@ -54,5 +54,8 @@
     <ClCompile Include="practise1.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="practise2.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
