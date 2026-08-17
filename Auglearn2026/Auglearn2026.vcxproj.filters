@@ -60,5 +60,8 @@
     <ClCompile Include="practise3.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="guessnumber.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
