@@ -6,16 +6,18 @@ int main(void)
 {
     int answer;
     int guess;
+	int attempts = 0;
 
-    srand((unsigned int)time(NULL));
-    answer = rand() % 100 + 1;
+	srand((unsigned int)time(NULL));//设置随机数种子和rand()配合使用
+	answer = rand() % 100 + 1;//rand() 产生一个随机数 %100 + 1 产生一个1-100之间的随机数
 
     printf("I have chosen a number between 1 and 100.\n");
 
-    while (1)
+	while (1)//0为假，非0为真，while(1)表示一直循环
     {
         printf("Guess the number: ");
         scanf_s("%d", &guess);
+        attempts++;
 
         if (guess > answer)
         {
@@ -28,7 +30,8 @@ int main(void)
         else
         {
             printf("Correct!\n");
-            break;
+            printf("You guessed it in %d attempts", attempts);
+			break;//退出循环
         }
     }
 
